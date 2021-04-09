@@ -148,13 +148,21 @@ body {
 }
 
 .effet-5 {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
+  right: 10%;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: tourner 10s linear infinite;
 }
 
 .effet-5 div {
-  width: 4px;
+  width: 1px;
   background-color: #4dd0e1;
+  height: 100%;
 }
 
 @keyframes tourner {
@@ -395,17 +403,17 @@ body {
 }
 
 .section__accueil .image__accueil .boite__image {
-  max-width: 450px;
+  max-width: 550px;
   display: block;
   margin: auto;
   border-radius: 50%;
-  padding: 15px;
+  padding: 30px;
 }
 
 .section__accueil .image__accueil .boite__image img {
   width: 100%;
   border-radius: 50%;
-  border: 10px solid transparent;
+  margin: auto;
 }
 
 @media (max-width: 767px) {
@@ -481,7 +489,7 @@ body {
 }
 
 .section__infos .img--profile .boite__image {
-  padding: 15px;
+  padding: 30px;
   border-radius: 5px;
 }
 
