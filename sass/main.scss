@@ -390,7 +390,7 @@ body{
     border-radius: 50%;
     //border: 10px solid transparent;
     margin: auto;
-}
+} 
 @media(max-width:767px){
     .section__infos .capacite .element--capacite,
     .section__infos .infos--apropos,
@@ -428,18 +428,19 @@ body{
         padding-right: 15px;
         text-align: left;
     }
-.section__infos .separateur .separateur--element:nth-child(2n){
+    .section__infos .separateur .separateur--element:nth-child(2n){
         padding-left: 15px;
+    }
+
 }
-}
-@media(max-width:574px){
+/* @media(max-width:574px){
     .section__accueil .image__accueil .boite__image{
         max-width: 260px;
     }
     .section__accueil .texte__accueil h2{
         font-size: 40px;
     }
-}
+} */
 
 /*---------------INFOS-------------*/
 .section__infos{
