@@ -390,10 +390,16 @@ body{
     border-radius: 50%;
     //border: 10px solid transparent;
     margin: auto;
-} 
+}
+
+@media(max-width:991px) {
+    .section--service .element--service{
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+}
 @media(max-width:767px){
-    .section__infos .capacite .element--capacite,
-    .section__infos .infos--apropos,
+
     .section__accueil .texte__accueil,
     .section__accueil .image__accueil{
         flex: 0 0 100%;
@@ -421,26 +427,36 @@ body{
     .effet-5{
         right: 4%;
     }
-    .section__infos .infos--apropos{
+   /*  .section__infos .img--profile{
         padding-bottom: 30px;
     }
     .section__infos .separateur .separateur--element:nth-child(2n+1){
         padding-right: 15px;
         text-align: left;
+        padding-left: 75px;
     }
     .section__infos .separateur .separateur--element:nth-child(2n){
-        padding-left: 15px;
+        padding-left: 75px;
     }
-
+    .section__infos .separateur::before{
+    content: '';
+    left: 35px;
+    }
+    .section__infos .separateur .separateur--element{
+        margin-bottom: 40px;
+    }
+    .section__infos .separateur .separateur--element:last-child{
+        margin-bottom: 0;
+    } */
 }
-/* @media(max-width:574px){
+@media(max-width:574px){
     .section__accueil .image__accueil .boite__image{
         max-width: 260px;
     }
     .section__accueil .texte__accueil h2{
         font-size: 40px;
     }
-} */
+}
 
 /*---------------INFOS-------------*/
 .section__infos{
@@ -474,7 +490,7 @@ body{
     font-size: 16px;
     text-align: center;
     color: $textNoir-600;
-    margin: 0 4px;
+    margin: 0 15px;
     border-radius: 50%;
     transition: all .3s ease;
 }
@@ -649,6 +665,29 @@ body{
     line-height: 26px;
     margin: 15px 0 0;
 }
+
+@media(max-width:1048px){
+    .section__infos .conteneur--alignement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__infos .img--profile {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 25px;
+    }
+    .section__infos .infos--apropos {
+        flex: 0 0 100%;
+        max-width: 90%;
+        padding: 0 25px;
+    }
+    section__infos .infos--apropos .bouton {
+        margin: 30px 20px 0 0;
+    }
+} 
+
+/*---------------SERVICES-------------*/
 
 .section--service{
     padding: 80px 0 80px;
