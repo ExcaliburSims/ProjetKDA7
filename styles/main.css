@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 @import url(/libs/reset.css);
 @font-face {
   font-family: raleway;
@@ -756,51 +755,3 @@ body {
   padding: 0 15px; }
 
 /*# sourceMappingURL=main.css.map */
-=======
-/*
-Error: Invalid CSS after "$couleur1: #fb839e": expected "{", was ";"
-        on line 20 of ./sass/main.scss
-
-15: 	font-family: "raleway";
-16: 	src: url("../webfonts/Raleway/static/Raleway-SemiBold.ttf");
-17: }
-18: 
-19: <<<<<<< HEAD
-20: $couleur1: #fb839e;
-21: $couleur2: #ec9412;
-22: $couleur3: #1fc586;
-23: $couleur4: #2eb1ed;
-24: $couleur5: #cc3a3b;
-25: 
-
-Backtrace:
-./sass/main.scss:20
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1308:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1238:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1233:in `tok!'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:688:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:681:in `ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:707:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:700:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:137:in `stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:41:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:414:in `_to_tree'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:294:in `watch'
-/usr/lib/ruby/vendor_ruby/sass/plugin.rb:109:in `method_missing'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:354:in `watch_or_update'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
-/usr/bin/sass:8:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"$couleur1: #fb839e\": expected \"{\", was \";\"\A         on line 20 of ./sass/main.scss\A \A 15: 	font-family: \"raleway\";\A 16: 	src: url(\"../webfonts/Raleway/static/Raleway-SemiBold.ttf\");\A 17: }\A 18: \A 19: <<<<<<< HEAD\A 20: $couleur1: #fb839e;\A 21: $couleur2: #ec9412;\A 22: $couleur3: #1fc586;\A 23: $couleur4: #2eb1ed;\A 24: $couleur5: #cc3a3b;\A 25: "; }
->>>>>>> Stashed changes
