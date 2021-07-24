@@ -54,6 +54,7 @@ body{
 .conteneur{
     max-width: 70%;
     margin: auto;
+    background-color:lightgrey;
 }
 .conteneur--alignement{
     display: flex;
@@ -214,7 +215,7 @@ body{
     display: inline-block;
     font-size: 30px;
     font-weight: 700;
-    color: $textNoir-900;
+    color: $textNoir-300;
     text-transform: uppercase;
     margin: 0;
 }
@@ -534,20 +535,29 @@ body{
 
 .section__infos .infos--apropos{
     flex: 0 0 60%;
-    max-width: 40%;
+    max-width: 60%;
     padding: 0 15px;
 }
 .section__infos .infos--apropos p{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     margin-bottom: 15px;
-    color: $textNoir-600;
+    color: $textNoir-700;
+    text-align: justify;
 }
 .section__infos .infos--apropos span{
     font-weight: 600;
 }
+.section__infos .infos--apropos div{
+    position: relative;
+    top: 25%;
+}
+
 .section__infos .infos--apropos .bouton{
     margin: 30px 20px 0 0;
+    position: relative;
+    left: 40%;
+    transform: translate(-60%);
 }
 .section__infos .tab--competence{
     padding: 60px 15px 50px;

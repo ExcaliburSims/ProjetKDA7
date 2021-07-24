@@ -17,7 +17,8 @@ body {
 
 .conteneur {
   max-width: 70%;
-  margin: auto; }
+  margin: auto;
+  background-color: lightgrey; }
 
 .conteneur--alignement {
   display: flex;
@@ -170,7 +171,7 @@ body {
   display: inline-block;
   font-size: 30px;
   font-weight: 700;
-  color: #000000;
+  color: #bbbbbb;
   text-transform: uppercase;
   margin: 0; }
 
@@ -462,20 +463,28 @@ body {
 
 .section__infos .infos--apropos {
   flex: 0 0 60%;
-  max-width: 40%;
+  max-width: 60%;
   padding: 0 15px; }
 
 .section__infos .infos--apropos p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
   margin-bottom: 15px;
-  color: #666666; }
+  color: #555555;
+  text-align: justify; }
 
 .section__infos .infos--apropos span {
   font-weight: 600; }
 
+.section__infos .infos--apropos div {
+  position: relative;
+  top: 25%; }
+
 .section__infos .infos--apropos .bouton {
-  margin: 30px 20px 0 0; }
+  margin: 30px 20px 0 0;
+  position: relative;
+  left: 40%;
+  transform: translate(-60%); }
 
 .section__infos .tab--competence {
   padding: 60px 15px 50px;
