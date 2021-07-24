@@ -18,7 +18,7 @@ body {
 .conteneur {
   max-width: 70%;
   margin: auto;
-  background-color: lightgrey; }
+  /* background-color:lightgrey; */ }
 
 .conteneur--alignement {
   display: flex;
@@ -445,7 +445,7 @@ body {
   display: inline-block;
   height: 40px;
   width: 40px;
-  font-size: 16px;
+  font-size: 25px;
   text-align: center;
   color: #666666;
   margin: 0 15px;
@@ -484,7 +484,9 @@ body {
   margin: 30px 20px 0 0;
   position: relative;
   left: 40%;
-  transform: translate(-60%); }
+  transform: translate(-60%);
+  width: 23%;
+  text-align: center; }
 
 .section__infos .tab--competence {
   padding: 60px 15px 50px;
@@ -502,7 +504,9 @@ body {
   font-size: 16px;
   color: #666666;
   font-weight: 500;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  width: 10%;
+  text-align: center; }
 
 .section__infos .tab--competence .tab--element:hover {
   color: #fb839e; }
@@ -517,7 +521,9 @@ body {
   padding: 0 15px; }
 
 .section__infos .capacite {
-  padding: 0 0 40px; }
+  padding: 0 0 40px;
+  position: relative;
+  left: 4%; }
 
 .section__infos .capacite .element--capacite p {
   font-size: 16px;
@@ -538,9 +544,11 @@ body {
 .section__infos .capacite .element--capacite .barre--progression {
   animation: chargement 3s normal forwards;
   border-radius: 100px;
-  background: #666666;
-  height: 6px;
-  width: 0; }
+  background: #bbbbbb;
+  height: 8px;
+  width: 0;
+  position: relative;
+  top: 10%; }
 
 .section__infos .capacite .element--capacite .barre--progression span {
   position: absolute;
@@ -588,8 +596,8 @@ body {
 .section__infos .separateur .separateur--element--interieur .icon {
   height: 40px;
   width: 40px;
-  background-color: #eff0f4;
-  border: 1px solid #dddddd;
+  background-color: #040407;
+  border: 1px solid #040407;
   text-align: center;
   border-radius: 50%;
   color: #fb839e;
@@ -606,7 +614,7 @@ body {
 
 .section__infos .separateur .separateur--element--interieur h3 {
   font-size: 20px;
-  color: #555555;
+  color: #bbbbbb;
   font-weight: 600;
   margin: 0 0 5px;
   text-transform: capitalize; }
@@ -619,7 +627,7 @@ body {
 
 .section__infos .separateur .separateur--element--interieur p {
   font-size: 16px;
-  color: #666666;
+  color: #555555;
   line-height: 26px;
   margin: 15px 0 0; }
 
@@ -762,5 +770,56 @@ body {
   max-width: 100%;
   text-align: right;
   padding: 0 15px; }
+
+/*---------------PROJETS-------------*/
+.section--projet {
+  padding: 80px 0 80px;
+  min-height: 100vh; }
+
+.section--projet .element--projet {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.section--projet .element--projet__interieur {
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; }
+
+.section--projet .element--projet__img img {
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.3s ease; }
+
+.section--projet .element--projet__interieur:hover .element--projet__img img {
+  transform: translateY(-25px); }
+
+.section--projet .element--projet__img {
+  position: relative; }
+
+.section--projet .element--projet__img .voir--projet {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fb839e;
+  transition: all 0.3s ease;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transform: translateY(-5px);
+  opacity: 0; }
+
+.section--projet .element--projet__interieur:hover .voir--projet {
+  transform: translateY(0px);
+  opacity: 1; }
+
+.section--projet .element--projet__interieur p {
+  font-size: 16px;
+  margin: 10px 0 0;
+  color: #666666;
+  text-transform: capitalize; }
 
 /*# sourceMappingURL=main.css.map */
